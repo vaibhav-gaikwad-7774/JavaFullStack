@@ -1,0 +1,70 @@
+
+Vaibhav Gaikwad@GFG0329-VAIBHAV MINGW64 /f/Git/New10feb/SecRepo
+$ git status
+fatal: not a git repository (or any of the parent directories): .git
+
+Vaibhav Gaikwad@GFG0329-VAIBHAV MINGW64 /f/Git/New10feb/SecRepo
+$ git init
+Initialized empty Git repository in F:/Git/New10feb/SecRepo/.git/
+
+Vaibhav Gaikwad@GFG0329-VAIBHAV MINGW64 /f/Git/New10feb/SecRepo (master)
+$ git status
+On branch master
+
+No commits yet
+
+nothing to commit (create/copy files and use "git add" to track)
+
+Vaibhav Gaikwad@GFG0329-VAIBHAV MINGW64 /f/Git/New10feb/SecRepo (master)
+$ touch vaibhav.txt
+
+Vaibhav Gaikwad@GFG0329-VAIBHAV MINGW64 /f/Git/New10feb/SecRepo (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        vaibhav.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Vaibhav Gaikwad@GFG0329-VAIBHAV MINGW64 /f/Git/New10feb/SecRepo (master)
+$ git add .
+
+Vaibhav Gaikwad@GFG0329-VAIBHAV MINGW64 /f/Git/New10feb/SecRepo (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   vaibhav.txt
+
+
+Vaibhav Gaikwad@GFG0329-VAIBHAV MINGW64 /f/Git/New10feb/SecRepo (master)
+$ git commit -m "test1"
+[master (root-commit) a711de7] test1
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 vaibhav.txt
+
+Vaibhav Gaikwad@GFG0329-VAIBHAV MINGW64 /f/Git/New10feb/SecRepo (master)
+$ git branch -M main
+
+Vaibhav Gaikwad@GFG0329-VAIBHAV MINGW64 /f/Git/New10feb/SecRepo (main)
+$ git remote add origin https://github.com/vaibhav-gaikwad-7774/Test2.git
+
+Vaibhav Gaikwad@GFG0329-VAIBHAV MINGW64 /f/Git/New10feb/SecRepo (main)
+$ git push -u origin main
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 216 bytes | 216.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/vaibhav-gaikwad-7774/Test2.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
+
+Vaibhav Gaikwad@GFG0329-VAIBHAV MINGW64 /f/Git/New10feb/SecRepo (main)
+$ git
